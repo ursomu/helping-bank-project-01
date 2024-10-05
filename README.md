@@ -318,9 +318,10 @@ function exitApp() {
 
 3. Responsiveness
 The web app is designed to be fully responsive and works well on various devices, including desktop, tablet, and mobile. The layout adjusts dynamically to screen size using media queries in the CSS, ensuring an optimal user experience regardless of the device.
-
-
-
+# The ui looks like : 
+![Screenshot 2024-10-05 101244](https://github.com/user-attachments/assets/ae466733-f9d8-4c00-b677-05f35f763a12)
+# Responsive
+![Screenshot 2024-10-05 101307](https://github.com/user-attachments/assets/cc141d29-e3fe-4c74-a4d3-61a600b4ea70)
 
 
 
