@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Helping Bank.co</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <div id="app-container">
+        <h1>Helping Bank.co</h1>
+
+        <div id="options-container" class="box">
+            <p class="title">Choose an option:</p>
+            <button class="btn" onclick="checkBalance()">Check Balance ₹</button>
+            <button class="btn" onclick="toggleInput('deposit')">Deposit Amount ₹</button>
+            <button class="btn" onclick="toggleInput('withdraw')">Withdraw Amount ₹</button>
+            <button class="btn exit-btn" onclick="exitApp()">Exit</button>
+        </div>
+
+        <div id="input-container" class="box" style="display: none;">
+            <p class="title" id="input-title">Enter the Amount:</p>
+            <input type="number" id="amount-input" placeholder="Enter Amount" />
+            <button class="btn" onclick="submitTransaction()">Submit</button>
+        </div>
+
+        <div id="result-container" class="box">
+            <p id="result">Welcome to Helping Bank.co! Perform transactions above.</p>
+        </div>
+    </div>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
