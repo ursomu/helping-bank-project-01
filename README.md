@@ -326,5 +326,14 @@ The web app is designed to be fully responsive and works well on various devices
 
 
 
+I have attached the index.html , style.css and app.js files. 
+  clone the repo and check the working of the web-app.
+
+Contributions and Future Enhancements
+This project is just the beginning of a fully functional web banking system. Contributions are welcome to improve the user interface, add new features, or optimize performance. Feel free to fork the repo, submit pull requests, and suggest new ideas!
+
+License
+This project is open-source under the MIT License. See the LICENSE file for more details.
+
 
 
